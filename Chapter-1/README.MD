@@ -24,6 +24,7 @@
 
 * Architecture Diagram:
 
-![architecture](./1-VB-newlogo_04_33.png)
+![architecture](https://labresources.whizlabs.org/6f7cc4eb33fb7231037a88d33d02db05/newlogo_04_33.png)
+
 
 
