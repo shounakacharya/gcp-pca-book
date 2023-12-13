@@ -20,8 +20,10 @@
 
 4. The GCP console provides tools to manage access control, setup firewalls, and implement security policies to ensure the protection of resources and data.
 
-5.Users can track and manage their usage and costs, set budgets, and view billing information to optimize their spending on cloud services.
+5. Users can track and manage their usage and costs, set budgets, and view billing information to optimize their spending on cloud services.
 
 * Architecture Diagram:
+
+![architecture](./1-VB-newlogo_04_33.png)
 
 
