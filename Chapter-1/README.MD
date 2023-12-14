@@ -23,3 +23,5 @@
 5. Users can track and manage their usage and costs, set budgets, and view billing information to optimize their spending on cloud services.
 
 * Architecture Diagram:
+
+![Alt text](newlogo_04_33.png)
