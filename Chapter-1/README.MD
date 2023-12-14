@@ -55,3 +55,23 @@
 
 ![Alt text](GCP1.jpg)
 
+## Lab Task:
+
+  1. Login into the GCP Console
+
+  2. Opening and exploring Cloudshell
+
+  3. Creating a VPC using Cloud Shell
+
+  4. Creating a VM instance using Cloudshell
+
+  5. SSH into the VM instance
+
+## Launching Lab Environment:
+
+1. Launch the lab environment by clicking on the **start Lab** button from the right sidebar. This will create a GCP environment with the resourcesand rolesrequired for the lab.
+
+2. Once the lab environment is ready, the **Open Console** button will be active. Click on the **Open Console** button, this will open Google Sign-in page. (Make sure you are using **Incognito Mode**).
+
+3. Navigate back to Lab document, You will see **Lab Credentials**, Copy the credentials to sign-in to the console from the highlighted Email and password using Copy button.
+
