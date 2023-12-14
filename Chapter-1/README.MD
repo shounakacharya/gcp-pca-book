@@ -53,5 +53,5 @@
 
 # Architecture Diagram:
 
-![Title](GCP.pptx)
+![Alt text](GCP1-1.jpg)
 
