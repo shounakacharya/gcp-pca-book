@@ -25,3 +25,10 @@
 * Architecture Diagram:
 
 ![Alt text](newlogo_04_33.png)
+
+* What is Google Cloud Shell?
+
+""." Cloud Shell is a Debian-based VM with 5 GB of free persistent disk storage that provides you with command-line access to your cloud resources directly from the browser.
+ 
+
+
