@@ -53,5 +53,5 @@
 
 # Architecture Diagram:
 
-[Title](GCP.pptx)
+![Title](GCP.pptx)
 
