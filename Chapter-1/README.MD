@@ -10,7 +10,7 @@
 
 3. Region: **Us-Central1.**
 
-* What is GCP Console?
+# What is GCP Console?
 
 1. User can create, configure and manage various cloud resources such as Virtual Machines (Google Compute Engine Instances), Storage Buckets (Google Cloud Storage), Databases (Google Cloud SQL, Cloud Firestore, etc) and more.
 
@@ -22,13 +22,22 @@
 
 5. Users can track and manage their usage and costs, set budgets, and view billing information to optimize their spending on cloud services.
 
-* Architecture Diagram:
+# Architecture Diagram:
 
 ![Alt text](newlogo_04_33.png)
 
-* What is Google Cloud Shell?
+# What is Google Cloud Shell?
 
-""." Cloud Shell is a Debian-based VM with 5 GB of free persistent disk storage that provides you with command-line access to your cloud resources directly from the browser.
- 
+* Cloud Shell is a Debian-based VM with 5 GB of free persistent disk storage that provides you with command-line access to your cloud resources directly from the browser.
+
+* gcloud is the command line interface to interact with most of the GCP services which are preinstalled in cloud shell .
+
+* Some Google Cloud Services have specific CLI tools for accessing the particular service.
+
+  * Cloud Storage - gsutil 
+  * Big Query - bq
+  * Cloud Bigtable - cbt
+  * Kubernetes(for managing pods and deployments)- Kubectl
+
 
 
