@@ -22,7 +22,7 @@
 
 # Architecture Diagram:
 
-![Alt text](newlogo_04_33.png)
+![Alt text](./GCP1.jpg)
 
 # What is Google Cloud Shell?
 
@@ -53,7 +53,7 @@
 
 # Architecture Diagram:
 
-![Alt text](GCP1.jpg)
+![Alt text](./GCP2.jpg)
 
 ## Lab Task:
 
