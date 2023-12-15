@@ -2,13 +2,13 @@
 
 ## A quick tour for GCP Console
 
-# Lab Details:
+### Lab Details:
 
 1. The Agenda of this GCP Lab is to Practice Logging into the GCP Console. Once Logged in, You can navigate  through the GCP Console to get yourself familiarized with the GCP Console. By the End of the Lab, you will understand how the GCP Console looks, Understand how you can serach various GCP services, and undersatnd various GCP resource locations and how they are categorized. 
 
 2. Region: **Us-Central1.**
 
-# What is GCP Console?
+## What is GCP Console?
 
 1. User can create, configure and manage various cloud resources such as Virtual Machines (Google Compute Engine Instances), Storage Buckets (Google Cloud Storage), Databases (Google Cloud SQL, Cloud Firestore, etc) and more.
 
@@ -20,23 +20,23 @@
 
 5. Users can track and manage their usage and costs, set budgets, and view billing information to optimize their spending on cloud services.
 
-# Architecture Diagram:
+## Architecture Diagram:
 
 ![Alt text](./GCP1.jpg)
 
-# What is Google Cloud Shell?
+## What is Google Cloud Shell?
 
 * Cloud Shell is a Debian-based VM with 5 GB of free persistent disk storage that provides you with command-line access to your cloud resources directly from the browser.
 
 # Google Cloud CLI Commands using Cloud Shell:
 
-## Lab Details:
+### Lab Details:
 
 1. This lab walks you through Google Cloud CLI Commands using Cloud Shell 
 
 2. You will be creating a VM instance and VCP network using Cloud Shell
 
-## Lab Overview:
+### Lab Overview:
 
 * Cloud Shell is Debian-based VM with 5 GB of free persistent disk storage that provides you with the command line access to your Cloud resourecs directly from your browser.
 
@@ -51,11 +51,11 @@
   * Cloud Bigtable - cbt
   * Kubernetes(for managing pods and deployments)- Kubectl
 
-# Architecture Diagram:
+## Architecture Diagram:
 
 ![Alt text](./GCP2.jpg)
 
-## Lab Task:
+### Lab Task:
 
   1. Login into the GCP Console
 
@@ -67,7 +67,7 @@
 
   5. SSH into the VM instance
 
-## Launching Lab Environment:
+### Launching Lab Environment:
 
 1. Launch the lab environment by clicking on the **start Lab** button from the right sidebar. This will create a GCP environment with the resourcesand rolesrequired for the lab.
 
