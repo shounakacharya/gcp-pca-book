@@ -28,7 +28,7 @@
 
 * Cloud Shell is a Debian-based VM with 5 GB of free persistent disk storage that provides you with command-line access to your cloud resources directly from the browser.
 
-# Google Cloud CLI Commands using Cloud Shell:
+## Google Cloud CLI Commands using Cloud Shell:
 
 ### Lab Details:
 
