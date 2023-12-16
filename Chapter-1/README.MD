@@ -148,6 +148,37 @@ and then setup the DNS yourself.
 
 3. Navigate back to Lab document, You will see **Lab Credentials**, Copy the credentials to sign-in to the console from the highlighted Email and password using Copy button.
 
+## 4. Types of IP Addressing in GCP:
+
+### What is an IP Address:
+
+* Just walk you Vehicle number gives you an identity to drive your car on roads similarly, IP gives you an identity in the Internet world. IP is an Internet Protocol.
+
+* The IP address assigned to your computer by your ISP. Since they are the ones giving you access to the internet, It's their role to assign an IP address to your computer. Your internet activity goes through them, and they route it back to you, using your IP Address.
+
+* IP's are not permanent or physically engraved on your device, it's just a software term. IP may get changed if ISP wants. There are the permanent addresses and are reffered to as MAC(Media Acces Control) Addresses.
+
+### Types of IP Addresses:
+
+![Alt text](./GCP5.jpg)
+
+### External IP Addresses: 
+
+* An **External IP Address** is an address assigned to you by your ISP. It is the address through which the internet and other computers outside your local network use to identify you. You can also often type "IP Address" into search engines such as Google to see your IP Address.
+
+### Internal IP Addresses:
+
+* The **Internal IP Address** is the address that is assigned by your local network router. It generally begins with 192.168.x.x. It is also known as Local Ip Address. These IP Addresses are only seen by other computers in your local network and not by local computers connected  to an external network, Such as the Internet. To know about your Internal IP Address, Open the terminal/command prompt, Search ipconfig and press Enter.
+
+### Ephemeral External/Internal IP Addresses:
+
+Ephemeral means "changing" the thing that keeps on changing. Ephemeral External/Internal IP in GCP means the IP that is not fixed and keeps on changing. The IP would not change in the middle of the process, while the creation of VM instance, a particular IP is assigned (ephemeral IP by default) to it, when we stop/suspend that VM for that very moment, Google assing that ip to some other VM instance and later when you restart your VM instance, it will be alloted with a different IP Address.
+
+
+
+
+
+
 
 
 
