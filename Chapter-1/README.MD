@@ -101,6 +101,26 @@ and then setup the DNS yourself.
 
 ## Architecture Diagram:
 
+![Alt text](./GCP3.jpg)
+
+## Lab Tasks:
+
+1. Login into the GCP Console.
+
+2. Creating a VM Instance.
+
+3. SSH into the instance.
+
+4. RDP to GUI Mode.
+
+## Launching Lab Environment:
+
+1. Launch the Lab environment by clicking on the **Start Tab** button from the right sidebar. This will create a GCP environment with the resources and roles required for this lab.
+
+2. Once the lab environment is ready, the **Open Console** button will be Active. Click one the **Open Console** button, This will open Google sign-in page. (Make sure you are using an **Incognito Mode**).
+
+3. Navigate back to lab document, tou will see **Lab Credentials** , copy the credentials to sign-in to the Console from the highlighted Email and password using copy button.
+
 
 
 
