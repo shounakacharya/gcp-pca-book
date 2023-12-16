@@ -1,6 +1,6 @@
 # Chapter 1
 
-## A quick tour for GCP Console
+# 1. A quick tour for GCP Console
 
 ### Lab Details:
 
@@ -51,9 +51,6 @@
   * Cloud Bigtable - cbt
   * Kubernetes(for managing pods and deployments)- Kubectl
 
-## Architecture Diagram:
-
-![Alt text](./GCP2.jpg)
 
 ### Lab Task:
 
@@ -74,4 +71,36 @@
 2. Once the lab environment is ready, the **Open Console** button will be active. Click on the **Open Console** button, this will open Google Sign-in page. (Make sure you are using **Incognito Mode**).
 
 3. Navigate back to Lab document, You will see **Lab Credentials**, Copy the credentials to sign-in to the console from the highlighted Email and password using Copy button.
+
+# 2. Creating your first GCP VM:
+
+## What is a GCP Compute Engine?
+
+* GCP VM is an IaaS (Infrastructure as a Service). All you have got to make and put together your own VM Instances. You have complete control over the VMs instances and the runtime. GCP Compute Engine is the easiest way to use Google's Data Centers virtually. You have direct access to the packages and you put all the packages that you simply need, which is typically a web server, Database etc.
+
+* A Compute Engine is comparable to a Virtual PC, where you would deploy a small website plus the database
+and then setup the DNS yourself.
+
+* GCE Instances are the most customizable unit there and thus should only be used when your application can't run on any other GCPS Services. Most of the time people use GCE to transfer their On-Prem applications to GCP since it requires minimal changes.
+
+* Compute Engine offers a set of predefined machine types and custom machine types also so that you can use it while creating an instance. A predefined machine type has a defined number of VCPUs and amount of memory, where as in a custom machine type you can choose a number of VCPUs and memory.
+
+* The only drawbacks is that you have to manage your app and VMs yourself including control of installed Disk Drives.
+
+## Advantages: 
+
+* Easy to Ramp up. There is no need to ramp up on kubernetes or App Engine.
+
+* Complete control- You can leverage many compute engine features directly and install the software packages of your need.
+
+* No need for public IPs.
+
+## Disadvantages:
+
+* Mostly do it yourself, which can be challenging, Although you can reuse solutions, sometimes lack experience may lead to a security breach.
+
+## Architecture Diagram:
+
+
+
 
