@@ -194,6 +194,26 @@ and then setup the DNS yourself.
 
 3. Navigate back to Lab Document, you will see **Lab Credentials**, copy the credentials, copy the credentials to sigh-in to the console from the highlighted Email and Password using Copy Button.
 
+## Mount a Persistent Sidk on a VM
+
+### Lab Details:
+
+* This lab walks you through mounting a Persistent Disk onto a VM.
+
+### What is a Persistent Disk?
+
+* Compute Engine provides several different types of storage options that you can choose while creating an instance.
+
+* Persistent Disks are durable network storage devices available for your instances, and you can access them like a physical sidk on a desktop.
+
+* Persistent Disks are independent of your VM instances. Persistent disk performance scales automatically, so you can resize your existing persistent disks or add more persistent disks to an instance to meet your performance and space requirements.
+
+* Disks can be categorized as Data Disk and boot disk. You can choose to have a Zonal or Regional disk type. As the name specifies Zonal persistent disks have disks available in a single Zone. Still, Regional disks offer durable storage and redundancy of data between two zones in the same region.
+
+
+
+
+
 
 
 
