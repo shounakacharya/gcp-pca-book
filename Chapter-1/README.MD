@@ -172,7 +172,30 @@ and then setup the DNS yourself.
 
 ### Ephemeral External/Internal IP Addresses:
 
-Ephemeral means "changing" the thing that keeps on changing. Ephemeral External/Internal IP in GCP means the IP that is not fixed and keeps on changing. The IP would not change in the middle of the process, while the creation of VM instance, a particular IP is assigned (ephemeral IP by default) to it, when we stop/suspend that VM for that very moment, Google assing that ip to some other VM instance and later when you restart your VM instance, it will be alloted with a different IP Address.
+* Ephemeral means "changing" the thing that keeps on changing. Ephemeral External/Internal IP in GCP means the IP that is not fixed and keeps on changing. The IP would not change in the middle of the process, while the creation of VM instance, a particular IP is assigned (ephemeral IP by default) to it, when we stop/suspend that VM for that very moment, Google assing that ip to some other VM instance and later when you restart your VM instance, it will be alloted with a different IP Address. The advantages of using emphemeral IP are that is not costly, you don't have to pay for the IP separately, the cost is included with the VM lifecycle only and the disadvantages of using it is that if your IPs are hardcoded somwhere and you have various dependencies among the services, then often changing of IP will be an overhead for operational time and cost.
+
+### Static External IP/Internal IP addresses:
+
+* Static means "Permanent". Static External/Internal IP in GCP means the IP that is fixed for a particular resource. While the creation of a VM instance, a particular IP is assigned (ephemeral IP by default) to it, for static IP you have to reserve an IP from VPC networks and then assign it to the VM instance during the creation. There is no effect of stopping/suspending the VM on the static IP. The advantages of using static IP are that IP never gets changed unlike the Ephemeral, so there is no effect of infrastructural dependencies and the disadvantage of using it is that it is not expensive, you have to pay for the IP seperately, even if it's not being used.
+
+### Lab Tasks:
+
+1. Creating a VM instance with an Ephereal IP address.
+
+2. Reserving a Static External IP.
+
+3. Creating a VM instance with a Static External IP address.
+
+### Launching Lab Environment:
+
+1. Launch the lab environment by clicking on the **Start Lab** button from the right sidebar. This will create a GCP environment with the resources and roles required for this lab.
+
+2. Once the lab environment is ready, the **Open Console** button will be active. Click on the **Open Console** button, this will open Google sign-in page. (Make sure you are using an **Incognito Mode**).
+
+3. Navigate back to Lab Document, you will see **Lab Credentials**, copy the credentials, copy the credentials to sigh-in to the console from the highlighted Email and Password using Copy Button.
+
+
+
 
 
 
