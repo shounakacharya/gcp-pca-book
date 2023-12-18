@@ -4,9 +4,9 @@
 
 ### Lab Details:
 
-1. The Agenda of this GCP Lab is to Practice Logging into the GCP Console. Once Logged in, You can navigate  through the GCP Console to get yourself familiarized with the GCP Console. By the End of the Lab, you will understand how the GCP Console looks, Understand how you can serach various GCP services, and undersatnd various GCP resource locations and how they are categorized. 
+ 1. The Agenda of this GCP Lab is to Practice Logging into the GCP Console. Once Logged in, You can navigate  through the GCP Console to get yourself familiarized with the GCP Console. By the End of the Lab, you will understand how the GCP Console looks, Understand how you can serach various GCP services, and undersatnd various GCP resource locations and how they are categorized. 
 
-2. Region: **Us-Central1.**
+ 2. Region: **Us-Central1.**
 
 ### What is GCP Console?
 
@@ -24,7 +24,7 @@
 
 ![Alt text](./GCP1.jpg)
 
-### Lab Task:
+### Lab Tasks:
 
 1. Login to GCP Console.
 
@@ -128,7 +128,7 @@ and then setup the DNS yourself.
 
 ![Alt text](./GCP4.jpg)
 
-### Lab Task:
+### Lab Tasks:
 
   1. Login into the GCP Console
 
