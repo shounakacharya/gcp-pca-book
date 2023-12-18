@@ -194,7 +194,7 @@ and then setup the DNS yourself.
 
 3. Navigate back to Lab Document, you will see **Lab Credentials**, copy the credentials, copy the credentials to sigh-in to the console from the highlighted Email and Password using Copy Button.
 
-## Mount a Persistent Sidk on a VM
+## 5. Mount a Persistent Disk on a VM
 
 ### Lab Details:
 
@@ -210,7 +210,39 @@ and then setup the DNS yourself.
 
 * Disks can be categorized as Data Disk and boot disk. You can choose to have a Zonal or Regional disk type. As the name specifies Zonal persistent disks have disks available in a single Zone. Still, Regional disks offer durable storage and redundancy of data between two zones in the same region.
 
+### Google Cloud offers 4 types of disk:
 
+1. Standard Persistent Disks (pd-standard)
+
+2. Balanced Persistent Disks (pd-balanced)
+
+3. SSD Persistent Disks (pd-ssd)
+
+4. Extreme Persistent Disks (pd-extreme)
+
+### Why to Mount PD on VM:
+
+1. Change the type of the Disk.
+
+2. Increase the size and performance of the current Filesystem.
+
+3. Add a backup persistent disk to the VM.
+
+### Lab Task:
+
+1. Create a VM.
+
+2. Create and attach a Data Persistent Disk to the VM.
+
+3. Format and mount the disk onto the VM.
+
+### Launching Lab Environment:
+
+1. Launch the lab environment by clicking on the **Start Lab** button from the right sidewar. This will create a GCP environment with the resources and roles required for this lab.
+
+2. Once the lab environment is ready, the **Open Console** button will be active. Click on **Open Console** button, this will open Google Sign-in page. (Make sure you are using an **Incognito Mode**).
+
+3. Navigate back to Lab document, you will see **Lab Credentials**, copy the credentials to Sign-In to the console from the highlighted Email and Password using Copy button.
 
 
 
