@@ -228,7 +228,7 @@ and then setup the DNS yourself.
 
 3. Add a backup persistent disk to the VM.
 
-### Lab Task:
+### Lab Tasks:
 
 1. Create a VM.
 
@@ -243,6 +243,65 @@ and then setup the DNS yourself.
 2. Once the lab environment is ready, the **Open Console** button will be active. Click on **Open Console** button, this will open Google Sign-in page. (Make sure you are using an **Incognito Mode**).
 
 3. Navigate back to Lab document, you will see **Lab Credentials**, copy the credentials to Sign-In to the console from the highlighted Email and Password using Copy button.
+
+## 6. Using Startup and Shutdown Scripts in Compute Engine:
+
+### Lab Details:
+
+1. This lab walks you through how to use Startup and Shutdown Scripts with Google Compute Engine.
+
+2. Region: us-central1
+
+### What is a GCP Compute Engine?
+
+* GCP VM is an infrastructure as a Service (IaaS). All you've got to make and put together your own VM instances. GCE provides you with full infrastruture with a variety of VMs. You have complete control over the VMs' instances and the runtime. Actually, GCP Compute Engine is the easiest way to use Google's data centers virtually.
+
+* Simply, A Compute Engine is comparable to a virtual PC, where you would deploy a small website plus the database and then set up the DNS yourself.
+
+* GCE instances are the most customized unit there and thus should only be used when your application can't run on any other GCP services. Most of the time people use GCE to transfer their On-Prem applications to GCP since it requires minimal changes.
+
+* Compute Engine offers a set of predefined machine types and custom machine types also so that you can use them while creating an instance. A predefined machine type has a defined number of vCPUs and amount of memory, whereas, in a custom machine type, you can choose a number of vCPUs and memory.
+
+### What is Startup Scripts?
+
+* A Startup Scripts in Google Cloud Compute Engine is a script that is automatically run when a VM instance start up.
+
+* The Script can perform various tasks such as a installing software, configuring the system, or starting services.
+
+* Startup Script can be added to an instance through the Cloud Console, **gcloud** command-line tool, or the API.
+
+* They are typically written in bash, but can also be written in other srcipting languages.
+
+### What is Shutdown Scripts?
+
+* A Shutdown Script in Google Cloud Compute Engine is a script that is automatically run when a VM instance is Shutdown. 
+
+* The Script can perform various tasks such as saving data, stopping services, or cleaning up the system.
+
+* Shutdown Scripts can be added to an instance through the Cloud Console, **gcloud** command-line tool, or the API.
+
+* They are typically written in Bash, but can also be written in other sripting languages.
+
+* It is important to note that the Shutdown Script runs only when the instance is being shut down and not terminated.
+
+### Lab Tasks:
+
+1. Login into the GCP Console.
+
+2. Creating a VM instance using Startup and Shutdown Scripts.
+
+3. Testing the Startup and Shutdown Scripts.
+
+### Launching Lab Environment:
+
+1. Launch the lab environment by clicking on the **Start Lab** button from the right sidebar. This will create a GCP environment for this Lab.
+
+2. Once the lab environment is ready, the **Open Console** button will be active. Click on the **Open Console** button, this will open Google Sign-In page. (Make sure you are using an **Incognito Mode**).
+
+3. Navigate back to Lab Document, you will see **Lab Credentials**, copy the credentials to Sign-in to the console from the highlighted Email and password using Copy Button.
+
+
+
 
 
 
