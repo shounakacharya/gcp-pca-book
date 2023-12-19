@@ -44,11 +44,11 @@
 
   4. Here you will find the list of Common GCP Services, you can scroll down and click on more products to see more services. 
 
-    ![Alt text](./GCP6.jpg)
+  ![Alt text](./6.jpg)
 
   5. In the left sidebar, Navigate to the different GCP Services. This lab is just for navigation, You won't be able to create any resources.
 
-    ![Alt text](./GCP7.jpg)
+  ![Alt text](./7.jpg)
 
   6. Navigate around to see all the features available. You will not have access to any resources in this lab.
 
@@ -60,11 +60,11 @@
 
   2. In the left sidebar, scroll down and click on more products.
 
-    ![Alt text](./GCP9.jpg)
+  ![Alt text](./9.jpg)
 
   3. Click on the Pin icon on any service as shown in the example.
 
-    ![Alt text](./GCP10.jpg)
+  ![Alt text](./10.jpg)
 
 ### Validate the Lab:
 
@@ -74,7 +74,7 @@
   2. Click on **Validate My Lab** button.
 
 
-    ![Alt text](./GCP11.jpg)
+  ![Alt text](./11.jpg)
 
 
   3. You will see the successful validation result "Lab Tasks Completed".
@@ -153,7 +153,7 @@ and then setup the DNS yourself.
 
 
      ![Alt text](./1.jpg)
-     
+
 
   3. On top, click on create instance. 
 
