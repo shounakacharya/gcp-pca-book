@@ -92,7 +92,7 @@
 
  1. This lab walks you through GCP Compute Engine VM Instance Creation. 
 
- 2. You will be creating a Ubuntu  OS with GUI Mode.
+ 2. You will be creating a Ubuntu OS with GUI Mode.
 
  3. Region: Us-Central1
 
@@ -137,11 +137,65 @@ and then setup the DNS yourself.
 
 ### Launching Lab Environment:
 
- 1. Launch the Lab environment by clicking on the **Start Tab** button from the right sidebar. This will create a GCP environment with the resources and roles required for this lab.
+### Creating a VM Instance:
 
- 2. Once the lab environment is ready, the **Open Console** button will be Active. Click one the **Open Console** button, This will open Google sign-in page. (Make sure you are using an **Incognito Mode**).
+ 1. Click on the hamburger icon in the top left corner. 
 
- 3. Navigate back to lab document, tou will see **Lab Credentials** , copy the credentials to sign-in to the Console from the highlighted Email and password using copy button.
+ 2. In the left sidebar, Click on Compute Engine. 
+
+   ![Alt text](./1.jpg)
+
+ 3. On top, click on create instance. 
+
+   ![Alt text](./2.jpg)
+
+ 4. Enter The Name Like Ubuntu-Instance.
+
+   ![Alt text](./3.jpg)
+
+ 5. Keep the region as Us-Central1 and zone as Us-Central1-A only.
+
+   ![Alt text](./4.jpg)
+
+ 6. In the machine configuration, choose series as N1.
+
+   ![Alt text](./5.jpg)
+
+ 7. Make sure the machine type N1-Standard-1. Do not select any other option, doing so might block your access to Labs.
+
+   ![Alt text](./6.jpg)
+
+  8. Click on change under Boot Disk to choose the operating system. 
+
+   ![Alt text](./7.jpg)
+
+  9. Choose operating system as Ubuntu.
+
+   ![Alt text](./8.jpg)
+
+ 10. Choose the version as the latest Ubuntu LTS with X86/64 Base.
+
+   ![Alt text](./9.jpg)
+
+ 11. Choose the boot disk type as The Standard Persistent Disk.
+
+   ![Alt text](./10.jpg)
+
+ 12. Keep the size as 10GB.
+
+
+ 13. Click on select.
+
+ 14. Under Identity and API access choose no service account from the Drop-Down Menu.
+
+    ![Alt text](./11.jpg)
+
+ 15. Click on create.
+
+ 16. Now, your instance is Up and Running. Click on SSH.
+
+    ![Alt text](./12.jpg)
+
 
 ## 3. Google Cloud CLI Commands using Cloud Shell 
 
