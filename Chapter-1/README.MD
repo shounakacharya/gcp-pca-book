@@ -236,20 +236,91 @@ and then setup the DNS yourself.
  sudo apt-get update 
  ```
 
-  19. Enter the below command to install the RDP configurations.
+ 19. Enter the below command to install the RDP configurations.
 
  ```bash
  sudo apt-get install xrdp
  ```
 
-  20. If prompted to confirm, Press Y and then press Enter.
+ 20. If prompted to confirm, Press Y and then press Enter.
 
 
-  21. Enter the below command to install the GUI Mode.
+ 21. Enter the below command to install the GUI Mode.
 
-  ```bash
-  
-  
+ ```bash
+ sudo apt-get install xfce4
+ ```
+
+ 22. If prompted to confirm, Press Y and then Press Enter.
+
+ 23. Enter the below command to restart the RDP Service.  
+
+ ```bash
+ sudo service xrdp restart
+ ```
+
+ 24. Enter the below command to switch to the root user.
+
+ ```bash
+ sudo -s
+ ```
+
+ 25. Enter the below command to configure the password.
+
+ ```bash
+ passwd
+ ```
+
+ 26. Choose any password, later you will need this password to login into the VM.
+
+       **Enter new Unix password**
+
+ 27. Retype to confirm your password.  **Retype new Unix password** 
+
+ 28. The Password is updated successfully.
+
+       ![Alt text](./13.jpg)
+
+
+ ### Validate the Lab:
+
+
+   1. Navigate back to the Lab Document, and click on the **validation** button from the right sidebar.
+
+   2. Click nn **validate My Lab** Button.
+
+   3. You will see the successful validation result **"Lab Tasks Completed"**
+   .
+
+  ### RDP into the Instance: 
+
+
+    For MAC Users -> Please go through RDP Into Instance For Mac Users.
+
+    For Windows Users -> Please go through RDP Into Instance For Windows Users.
+
+    For Other OS Users -> Download any RDP client and follow any of the above documents similarly.
+
+
+   ### Completion and Conclusion:
+
+
+    1. In this Lab, You have created an N1 series VM Instance with machine type **'N1-Standard-1'**.
+
+    2. You have done SSH into instance and installed tools like **RDP and XFCE4**
+
+    3. You have set a Password for your instance.
+
+    4. You have done RDP into the instance.
+
+
+   ### End Lab:
+
+
+    1. You have successfully completed the Lab.
+
+    2. Once you have completed the steps click on the **End Lab** button from the Whizlabs dashboard.
+
 
 
 
