@@ -4,197 +4,229 @@
 
 ### Lab Details:
 
- 1. The Agenda of this GCP Lab is to Practice Logging into the GCP Console. Once Logged in, You can navigate  through the GCP Console to get yourself familiarized with the GCP Console. By the End of the Lab, you will understand how the GCP Console looks, Understand how you can serach various GCP services, and undersatnd various GCP resource locations and how they are categorized. 
+  1. The Agenda of this GCP Lab is to Practice Logging into the GCP Console. Once Logged in, You can navigate  through the GCP Console to get yourself familiarized with the GCP Console. By the End of the Lab, you will understand how the GCP Console looks, Understand how you can serach various GCP services, and undersatnd various GCP resource locations and how they are categorized. 
 
- 2. Region: **Us-Central1.**
+  2. Region: **Us-Central1.**
 
 ### What is GCP Console?
 
- * User can create, configure and manage various cloud resources such as Virtual Machines (Google Compute Engine Instances), Storage Buckets (Google Cloud Storage), Databases (Google Cloud SQL, Cloud Firestore, etc) and more.
+  * User can create, configure and manage various cloud resources such as Virtual Machines (Google Compute Engine Instances), Storage Buckets (Google Cloud Storage), Databases (Google Cloud SQL, Cloud Firestore, etc) and more.
 
- * The console offers monitoring and logging tools that allow users to monitor the performance, health and utilization of their resources. it also provides access to logs and metrics to troubleshoot issues.
+  * The console offers monitoring and logging tools that allow users to monitor the performance, health and utilization of their resources. it also provides access to logs and metrics to troubleshoot issues.
 
- * Users can deploy applications and services easily and scale resources up or down based on demand using features like Google Kubernetes Engine for container orchestration.
+  * Users can deploy applications and services easily and scale resources up or down based on demand using features like Google Kubernetes Engine for container orchestration.
 
- * The GCP console provides tools to manage access control, setup firewalls, and implement security policies to ensure the protection of resources and data.
+  * The GCP console provides tools to manage access control, setup firewalls, and implement security policies to ensure the protection of resources and data.
 
- * Users can track and manage their usage and costs, set budgets, and view billing information to optimize their spending on cloud services.
+  * Users can track and manage their usage and costs, set budgets, and view billing information to optimize their spending on cloud services.
 
 ### Architecture Diagram:
 
- ![Alt text](./GCP1.jpg)
+   ![Alt text](./GCP1.jpg)
 
 ### Lab Tasks:
 
- 1. Login to GCP Console.
+  1. Login to GCP Console.
 
- 2. Since it is a tour, Navigate around to see the GCP Console.
+  2. Since it is a tour, Navigate around to see the GCP Console.
 
- 3. Search for different GCP Services.
+  3. Search for different GCP Services.
 
- 4. Understand the navigation inside GCP console properly.
+  4. Understand the navigation inside GCP console properly.
 
 ### Launching Lab Environment:
 
- 1. Google Cloud Platform is a suite of Cloud Services hosted On Google's Infrastructure. From Computing and Storage to database, Machine Learning, and Networking, Google Cloud provides a huge variety of services snd APIs that can be easily integrated with multi-cloud environments applications or projects. when you log in, you will see your project home page.
+  1. Google Cloud Platform is a suite of Cloud Services hosted On Google's Infrastructure. From Computing and Storage to database, Machine Learning, and Networking, Google Cloud provides a huge variety of services snd APIs that can be easily integrated with multi-cloud environments applications or projects. when you log in, you will see your project home page.
 
- 2. Once Logged into GCP Console, look around to see and get the feel of the console.
+  2. Once Logged into GCP Console, look around to see and get the feel of the console.
 
- 3. Click on the hamburger icon on the top left corner.  
+  3. Click on the hamburger icon on the top left corner.  
 
- 4. Here you will find the list of Common GCP Services, you can scroll down and click on more products to see more services. 
+  4. Here you will find the list of Common GCP Services, you can scroll down and click on more products to see more services. 
 
-  ![Alt text](./GCP6.jpg)
+    ![Alt text](./GCP6.jpg)
 
- 5. In the left sidebar, Navigate to the different GCP Services. This lab is just for navigation, You won't be able to create any resources.
+  5. In the left sidebar, Navigate to the different GCP Services. This lab is just for navigation, You won't be able to create any resources.
 
-  ![Alt text](./GCP7.jpg)
+    ![Alt text](./GCP7.jpg)
 
- 6. Navigate around to see all the features available. You will not have access to any resources in this lab.
+  6. Navigate around to see all the features available. You will not have access to any resources in this lab.
 
 ### To pin/unpin a frequently used service:
 
-  1. Click on the unpin icon as a few common services are already pinned. 
+ 1. Click on the unpin icon as a few common services are already pinned. 
 
-   ![Alt text](./GCP8.jpg)
+     ![Alt text](./GCP8.jpg)
 
   2. In the left sidebar, scroll down and click on more products.
 
-   ![Alt text](./GCP9.jpg)
+    ![Alt text](./GCP9.jpg)
 
   3. Click on the Pin icon on any service as shown in the example.
 
-   ![Alt text](./GCP10.jpg)
+    ![Alt text](./GCP10.jpg)
 
 ### Validate the Lab:
 
- 1. Navigate Back to the Lab Document, and click on the **Validation** button from the right sidebar.
+  1. Navigate Back to the Lab Document, and click on the **Validation** button from the right sidebar.
 
- 2. Click on **Validate My Lab** button.
 
-  ![Alt text](./GCP11.jpg)
+  2. Click on **Validate My Lab** button.
 
- 3. You will see the successful validation result "Lab Tasks Completed".
+
+    ![Alt text](./GCP11.jpg)
+
+
+  3. You will see the successful validation result "Lab Tasks Completed".
+
 
 ### Completion and conclusion:
- 1. You have now successfully logged into GCP Console.
 
- 2. You have navigated around in GCP Console and understand the features available.
+
+  1. You have now successfully logged into GCP Console.
+
+
+  2. You have navigated around in GCP Console and understand the features available.
 
 ### End Lab:
- 1. You have successfully completed the lab.
 
- 2. Once you have completed the steps click on the **End Lab** button from your GCP Dashboard.
+  1. You have successfully completed the lab.
+
+  2. Once you have completed the steps click on the **End Lab** button from your GCP Dashboard.
 
 ## 2. Creating your first GCP VM:
 
 ### Lab Details:
 
- 1. This lab walks you through GCP Compute Engine VM Instance Creation. 
+  1. This lab walks you through GCP Compute Engine VM Instance Creation. 
 
- 2. You will be creating a Ubuntu OS with GUI Mode.
+  2. You will be creating a Ubuntu OS with GUI Mode.
 
- 3. Region: Us-Central1
+  3. Region: Us-Central1
 
 ### What is a GCP Compute Engine?
 
- * GCP VM is an IaaS (Infrastructure as a Service). All you have got to make and put together your own VM Instances. You have complete control over the VMs instances and the runtime. GCP Compute Engine is the easiest way to use Google's Data Centers virtually. You have direct access to the packages and you put all the packages that you simply need, which is typically a web server, Database etc.
+  * GCP VM is an IaaS (Infrastructure as a Service). All you have got to make and put together your own VM Instances. You have complete control over the VMs instances and the runtime. GCP Compute Engine is the easiest way to use Google's Data Centers virtually. You have direct access to the packages and you put all the packages that you simply need, which is typically a web server, Database etc.
 
- * A Compute Engine is comparable to a Virtual PC, where you would deploy a small website plus the database
+  * A Compute Engine is comparable to a Virtual PC, where you would deploy a small website plus the database
 and then setup the DNS yourself.
 
- * GCE Instances are the most customizable unit there and thus should only be used when your application can't run on any other GCPS Services. Most of the time people use GCE to transfer their On-Prem applications to GCP since it requires minimal changes.
+  * GCE Instances are the most customizable unit there and thus should only be used when your application can't run on any other GCPS Services. Most of the time people use GCE to transfer their On-Prem applications to GCP since it requires minimal changes.
 
- * Compute Engine offers a set of predefined machine types and custom machine types also so that you can use it while creating an instance. A predefined machine type has a defined number of VCPUs and amount of memory, where as in a custom machine type you can choose a number of VCPUs and memory.
+  * Compute Engine offers a set of predefined machine types and custom machine types also so that you can use it while creating an instance. A predefined machine type has a defined number of VCPUs and amount of memory, where as in a custom machine type you can choose a number of VCPUs and memory.
 
- * The only drawbacks is that you have to manage your app and VMs yourself including control of installed Disk Drives.
+  * The only drawbacks is that you have to manage your app and VMs yourself including control of installed Disk Drives.
 
 ### Advantages: 
 
- * Easy to Ramp up. There is no need to ramp up on kubernetes or App Engine.
+  * Easy to Ramp up. There is no need to ramp up on kubernetes or App Engine.
 
- * Complete control- You can leverage many compute engine features directly and install the software packages of your need.
+  * Complete control- You can leverage many compute engine features directly and install the software packages of your need.
 
- * No need for public IPs.
+  * No need for public IPs.
 
 ### Disadvantages:
 
- * Mostly do it yourself, which can be challenging, Although you can reuse solutions, sometimes lack experience may lead to a security breach.
+  * Mostly do it yourself, which can be challenging, Although you can reuse solutions, sometimes lack experience may lead to a security breach.
 
 ### Architecture Diagram:
 
-![Alt text](./GCP3.jpg)
+  ![Alt text](./GCP3.jpg)
 
 ### Lab Tasks:
 
- 1. Login into the GCP Console.
+  1. Login into the GCP Console.
 
- 2. Creating a VM Instance.
+  2. Creating a VM Instance.
 
- 3. SSH into the instance.
+  3. SSH into the instance.
 
- 4. RDP to GUI Mode.
+  4. RDP to GUI Mode.
 
 ### Launching Lab Environment:
 
 ### Creating a VM Instance:
 
- 1. Click on the hamburger icon in the top left corner. 
+  1. Click on the hamburger icon in the top left corner. 
 
- 2. In the left sidebar, Click on Compute Engine. 
+  2. In the left sidebar, Click on Compute Engine. 
 
-   ![Alt text](./1.jpg)
 
- 3. On top, click on create instance. 
+     ![Alt text](./1.jpg)
+     
 
-   ![Alt text](./2.jpg)
+  3. On top, click on create instance. 
+
+
+     ![Alt text](./2.jpg)
 
  4. Enter The Name Like Ubuntu-Instance.
 
-   ![Alt text](./3.jpg)
+
+     ![Alt text](./3.jpg)
+
 
  5. Keep the region as Us-Central1 and zone as Us-Central1-A only.
+ 
 
-   ![Alt text](./4.jpg)
+     ![Alt text](./4.jpg)
+
 
  6. In the machine configuration, choose series as N1.
 
-   ![Alt text](./5.jpg)
+
+     ![Alt text](./5.jpg)
+
 
  7. Make sure the machine type N1-Standard-1. Do not select any other option, doing so might block your access to Labs.
 
-   ![Alt text](./6.jpg)
+
+     ![Alt text](./6.jpg)
+
 
   8. Click on change under Boot Disk to choose the operating system. 
 
-   ![Alt text](./7.jpg)
+
+     ![Alt text](./7.jpg)
+
 
   9. Choose operating system as Ubuntu.
 
-   ![Alt text](./8.jpg)
+
+     ![Alt text](./8.jpg)
+
 
  10. Choose the version as the latest Ubuntu LTS with X86/64 Base.
 
-   ![Alt text](./9.jpg)
+
+     ![Alt text](./9.jpg)
+
 
  11. Choose the boot disk type as The Standard Persistent Disk.
 
-   ![Alt text](./10.jpg)
+
+     ![Alt text](./10.jpg)
+
 
  12. Keep the size as 10GB.
 
 
  13. Click on select.
 
+
  14. Under Identity and API access choose no service account from the Drop-Down Menu.
 
-    ![Alt text](./11.jpg)
+
+      ![Alt text](./11.jpg)
+
 
  15. Click on create.
 
+
  16. Now, your instance is Up and Running. Click on SSH.
 
-    ![Alt text](./12.jpg)
+
+      ![Alt text](./12.jpg)
 
 
 ## 3. Google Cloud CLI Commands using Cloud Shell 
