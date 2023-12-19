@@ -228,6 +228,30 @@ and then setup the DNS yourself.
 
       ![Alt text](./12.jpg)
 
+ 17. A new window will open where you can type in these commands.
+
+ 18. Enter the below command to update all the libraries.
+
+ ```bash
+ sudo apt-get update 
+ ```
+
+  19. Enter the below command to install the RDP configurations.
+
+ ```bash
+ sudo apt-get install xrdp
+ ```
+
+  20. If prompted to confirm, Press Y and then press Enter.
+
+
+  21. Enter the below command to install the GUI Mode.
+
+  ```bash
+  
+  
+
+
 
 ## 3. Google Cloud CLI Commands using Cloud Shell 
 
