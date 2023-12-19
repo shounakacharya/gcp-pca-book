@@ -320,7 +320,7 @@ and then setup the DNS yourself.
 
     1. You have successfully completed the Lab.
 
-    2. Once you have completed the steps click on the **End Lab** button from the Whizlabs dashboard.
+    2. Once you have completed the steps click on the **End Lab** button from the dashboard.
 
 
 
