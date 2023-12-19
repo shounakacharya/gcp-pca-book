@@ -66,6 +66,26 @@
 
    ![Alt text](./GCP10.jpg)
 
+### Validate the Lab:
+
+ 1. Navigate Back to the Lab Document, and click on the **Validation** button from the right sidebar.
+
+ 2. Click on **Validate My Lab** button.
+
+  ![Alt text](./GCP11.jpg)
+
+ 3. You will see the successful validation result "Lab Tasks Completed".
+
+### Completion and conclusion:
+ 1. You have now successfully logged into GCP Console.
+
+ 2. You have navigated around in GCP Console and understand the features available.
+
+### End Lab:
+ 1. You have successfully completed the lab.
+
+ 2. Once you have completed the steps click on the **End Lab** button from your GCP Dashboard.
+
 ## 2. Creating your first GCP VM:
 
 ### Lab Details:
