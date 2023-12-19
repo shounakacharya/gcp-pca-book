@@ -22,7 +22,7 @@
 
 ### Architecture Diagram:
 
-![Alt text](./GCP1.jpg)
+ ![Alt text](./GCP1.jpg)
 
 ### Lab Tasks:
 
@@ -36,35 +36,35 @@
 
 ### Launching Lab Environment:
 
-* 1. Google Cloud Platform is a suite of Cloud Services hosted On Google's Infrastructure. From Computing and Storage to database, Machine Learning, and Networking, Google Cloud provides a huge variety of services snd APIs that can be easily integrated with multi-cloud environments applications or projects. when you log in, you will see your project home page.
+ 1. Google Cloud Platform is a suite of Cloud Services hosted On Google's Infrastructure. From Computing and Storage to database, Machine Learning, and Networking, Google Cloud provides a huge variety of services snd APIs that can be easily integrated with multi-cloud environments applications or projects. when you log in, you will see your project home page.
 
-* 2. Once Logged into GCP Console, look around to see and get the feel of the console.
+ 2. Once Logged into GCP Console, look around to see and get the feel of the console.
 
-* 3. Click on the hamburger icon on the top left corner.  
+ 3. Click on the hamburger icon on the top left corner.  
 
-* 4. Here you will find the list of Common GCP Services, you can scroll down and click on more products to see more services. 
+ 4. Here you will find the list of Common GCP Services, you can scroll down and click on more products to see more services. 
 
-![Alt text](./GCP6.jpg)
+  ![Alt text](./GCP6.jpg)
 
-* 5. In the left sidebar, Navigate to the different GCP Services. This lab is just for navigation, You won't be able to create any resources.
+ 5. In the left sidebar, Navigate to the different GCP Services. This lab is just for navigation, You won't be able to create any resources.
 
-![Alt text](./GCP7.jpg)
+  ![Alt text](./GCP7.jpg)
 
-* 6. Navigate around to see all the features available. You will not have access to any resources in this lab.
+ 6. Navigate around to see all the features available. You will not have access to any resources in this lab.
 
 ### To pin/unpin a frequently used service:
 
- * 1. Click on the unpin icon as a few common services are already pinned. 
+  1. Click on the unpin icon as a few common services are already pinned. 
 
- ![Alt text](./GCP8.jpg)
+   ![Alt text](./GCP8.jpg)
 
-  * 2. In the left sidebar, scroll down and click on more products.
+  2. In the left sidebar, scroll down and click on more products.
 
-  ![Alt text](./GCP9.jpg)
+   ![Alt text](./GCP9.jpg)
 
-  * 3. Click on the Pin icon on any service as shown in the example.
+  3. Click on the Pin icon on any service as shown in the example.
 
-  ![Alt text](./GCP10.jpg)
+   ![Alt text](./GCP10.jpg)
 
 ## 2. Creating your first GCP VM:
 
