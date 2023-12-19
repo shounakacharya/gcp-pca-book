@@ -228,6 +228,7 @@ and then setup the DNS yourself.
 
       ![Alt text](./12.jpg)
 
+
  17. A new window will open where you can type in these commands.
 
  18. Enter the below command to update all the libraries.
@@ -282,7 +283,7 @@ and then setup the DNS yourself.
        ![Alt text](./13.jpg)
 
 
- ### Validate the Lab:
+   ### Validate the Lab:
 
 
    1. Navigate back to the Lab Document, and click on the **validation** button from the right sidebar.
@@ -292,7 +293,7 @@ and then setup the DNS yourself.
    3. You will see the successful validation result **"Lab Tasks Completed"**
    .
 
-  ### RDP into the Instance: 
+   ### RDP into the Instance: 
 
 
     For MAC Users -> Please go through RDP Into Instance For Mac Users.
