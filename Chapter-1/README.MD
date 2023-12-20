@@ -368,11 +368,44 @@ and then setup the DNS yourself.
 
 ### Launching Lab Environment:
 
- 1. Launch the lab environment by clicking on the **start Lab** button from the right sidebar. This will create a GCP environment with the resourcesand rolesrequired for the lab. 
+### Activating a Cloud Shell:
 
- 2. Once the lab environment is ready, the **Open Console** button will be active. Click on the **Open Console** button, this will open Google Sign-in page. (Make sure you are using **Incognito Mode**).
+  1. In the Cloud Console, in the top right toolbar, Click the **Activate Cloud Shell** button.
 
- 3. Navigate back to Lab document, You will see **Lab Credentials**, Copy the credentials to sign-in to the console from the highlighted Email and password using Copy button.
+   ![Alt text](./14.jpg)
+
+  2. If prompted, click on the Continue button to open the Cloud Shell. It takes a few seconds to connect to the environment.
+
+  3. Now you are in the CloudShell Environment to interact with GCP services. Before proceeding further enter the below command to set your project. You can copy the project id from the lab document.
+
+  ```bash
+  gcloud config set project [Your Project ID]
+  ```
+
+  4. If prompted click on the Authorise button to make a GCP API call.
+
+
+    ![Alt text](./15.jpg)
+
+  5. You will see the confirmation once the project id is set.
+
+    ![Alt text](./16.jpg)
+
+  
+  ### Creating a VPC network using CloudShell: 
+
+   1. In the CloudShell run the below command to create a Custom VPC network. 
+
+     ```bash
+     gcloude compute networks create clivpc --subnet-mode=custom
+     ```
+
+   2. You will get the below output stating as the VPC network has been created.
+
+
+       ![Alt text](./17.jpg)
+    
+
 
 ## 4. Types of IP Addressing in GCP:
 
