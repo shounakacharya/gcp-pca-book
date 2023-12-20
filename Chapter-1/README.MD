@@ -382,14 +382,14 @@ and then setup the DNS yourself.
   gcloud config set project [Your Project ID]
   ```
 
+
   4. If prompted click on the Authorise button to make a GCP API call.
 
-
-    ![Alt text](./15.jpg)
+   ![Alt text](./15.jpg)
 
   5. You will see the confirmation once the project id is set.
 
-    ![Alt text](./16.jpg)
+   ![Alt text](./16.jpg)
 
   
   ### Creating a VPC network using CloudShell: 
@@ -404,6 +404,14 @@ and then setup the DNS yourself.
 
 
        ![Alt text](./17.jpg)
+
+    3. To create a subnet under the above VPC network in the us-central1 region. Enter the below command.
+
+     ```bash
+     gcloud compute networks subnets create clisubnet1 --network=clivpc --range=10.0.2.0/29 -region=us-central1
+     ```
+
+    4.  You will get the below output stating as the Subnet has been created.
     
 
 
