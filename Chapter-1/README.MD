@@ -70,7 +70,7 @@
    2. Enter the name like **test-instance-1** and select the **Region** and **Zone** (As per your requirement).
 
 
-   ![Alt text](./6.jpg)
+  ![Alt text](./6.jpg)
 
 
    3. In the Machine Configuration, Choose series as **N1** (As per your requirement).
