@@ -129,9 +129,9 @@
 
    12. Enter the below command to install the RDP configurations.
 
-    ```bash
-    sudo apt-get install xrdp
-    ```
+   ```bash
+   sudo apt-get install xrdp
+   ```
 
   ![Alt text](./16.jpg)
 
@@ -139,9 +139,9 @@
 
    14. Enter the below command to install the GUI Mode.
 
-    ```bash
-    sudo apt-get install xfce4
-    ```
+   ```bash
+   sudo apt-get install xfce4
+   ```
 
   ![Alt text](./17.jpg)
 
@@ -161,18 +161,18 @@
 
    16. Enter the below command to switch to The Root User.
 
-    ```bash
-    sudo -s
-    ```
+   ```bash
+   sudo -s
+   ```
 
   ![Alt text](./20.jpg)
 
 
    17. Enter the below command to configure the Password.
 
-    ```bash
-    passwd
-    ```
+   ```bash
+   passwd
+   ```
 
   ![Alt text](./21.jpg)
 
