@@ -2,53 +2,73 @@
 
 ## 1. A quick tour for GCP Console
 
-### Lab Details:
+   The Agenda of this GCP Lab is to Practice Logging into the GCP Console. Once Logged in, You can navigate  through the GCP Console to get yourself familiarized with the GCP Console. By the End of the Lab, you will understand how the GCP Console looks, Understand how you can serach various GCP services, and undersatnd various GCP resource locations and how they are categorized. 
+  
+  
+  ### What is GCP Console?
 
-  1. The Agenda of this GCP Lab is to Practice Logging into the GCP Console. Once Logged in, You can navigate  through the GCP Console to get yourself familiarized with the GCP Console. By the End of the Lab, you will understand how the GCP Console looks, Understand how you can serach various GCP services, and undersatnd various GCP resource locations and how they are categorized. 
+    * User can create, configure and manage various cloud resources such as Virtual Machines (Google Compute Engine Instances), Storage Buckets (Google Cloud Storage), Databases (Google Cloud SQL, Cloud Firestore, etc) and more.
 
-  2. Region: **Us-Central1.**
+   * The console offers monitoring and logging tools that allow users to monitor the performance, health and utilization of their resources. it also provides access to logs and metrics to troubleshoot issues.
 
-### What is GCP Console?
+   * Users can deploy applications and services easily and scale resources up or down based on demand using features like Google Kubernetes Engine for container orchestration.
 
-  * User can create, configure and manage various cloud resources such as Virtual Machines (Google Compute Engine Instances), Storage Buckets (Google Cloud Storage), Databases (Google Cloud SQL, Cloud Firestore, etc) and more.
+   * The GCP console provides tools to manage access control, setup firewalls, and implement security policies to ensure the protection of resources and data.
 
-  * The console offers monitoring and logging tools that allow users to monitor the performance, health and utilization of their resources. it also provides access to logs and metrics to troubleshoot issues.
+   * Users can track and manage their usage and costs, set budgets, and view billing information to optimize their spending on cloud services.
 
-  * Users can deploy applications and services easily and scale resources up or down based on demand using features like Google Kubernetes Engine for container orchestration.
 
-  * The GCP console provides tools to manage access control, setup firewalls, and implement security policies to ensure the protection of resources and data.
+  ### GCP Console Lab:
 
-  * Users can track and manage their usage and costs, set budgets, and view billing information to optimize their spending on cloud services.
+   1. When You Log In, You Will See Your Project Home Page.
+
+   2. Once Logged Into GCP Console, Look Around To See And Get The Feel Of The Console.
+
+   3. Click On The Hamburger Icon On The Top Left Corner.  
+
+   4. Here You Will Find The List Of Common GCP Services, You Can Scroll Down And Click On More Products To see More Services.  
+
+  ![Alt text](./1.jpg)
+
+
+   5. In The Left Sidebar, Navigate To The Different GCP Services.
+
+
+  ![Alt text](./2.jpg)
+
+
+  ### To pin/unpin a frequently used service:
+   
+   1. Click On The Unpin Icon As A Few Common Services Are Already Pinned. 
+
+
+   ![Alt text](./3.jpg)
+
+    
+
+
+
+
+
+
+
+
+
+
+
 
 ### Architecture Diagram:
 
-   ![Alt text](./GCP1.jpg)
+   
 
 ### Lab Tasks:
 
-  1. Login to GCP Console.
+   * Here you will find the list of Common GCP Services, you can scroll down and click on more products to see more services. 
 
-  2. Since it is a tour, Navigate around to see the GCP Console.
-
-  3. Search for different GCP Services.
-
-  4. Understand the navigation inside GCP console properly.
-
-### Launching Lab Environment:
-
-  1. Google Cloud Platform is a suite of Cloud Services hosted On Google's Infrastructure. From Computing and Storage to database, Machine Learning, and Networking, Google Cloud provides a huge variety of services snd APIs that can be easily integrated with multi-cloud environments applications or projects. when you log in, you will see your project home page.
-
-  2. Once Logged into GCP Console, look around to see and get the feel of the console.
-
-  3. Click on the hamburger icon on the top left corner.  
-
-  4. Here you will find the list of Common GCP Services, you can scroll down and click on more products to see more services. 
-
-  ![Alt text](./6.jpg)
-
+  
   5. In the left sidebar, Navigate to the different GCP Services. This lab is just for navigation, You won't be able to create any resources.
 
-  ![Alt text](./7.jpg)
+
 
   6. Navigate around to see all the features available. You will not have access to any resources in this lab.
 
@@ -56,25 +76,15 @@
 
  1. Click on the unpin icon as a few common services are already pinned. 
 
-     ![Alt text](./GCP8.jpg)
+     
 
   2. In the left sidebar, scroll down and click on more products.
 
-  ![Alt text](./9.jpg)
-
+  
   3. Click on the Pin icon on any service as shown in the example.
 
-  ![Alt text](./10.jpg)
+  
 
-### Validate the Lab:
-
-  1. Navigate Back to the Lab Document, and click on the **Validation** button from the right sidebar.
-
-
-  2. Click on **Validate My Lab** button.
-
-
-  ![Alt text](./11.jpg)
 
 
   3. You will see the successful validation result "Lab Tasks Completed".
