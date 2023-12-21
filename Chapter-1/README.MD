@@ -43,6 +43,19 @@
 
    ![Alt text](./3.jpg)
 
+
+   2. Click On The Pin Icon On Any Service As Shown In The Example.
+
+      
+   ![Alt text](./4.jpg)
+
+
+  ### End Lab:
+
+  * You Have Successfully Completed The Lab.
+
+  * Once You Have Completed The Steps Click On The End Lab Button From Your GCP Dashboard.
+
     
 
 
