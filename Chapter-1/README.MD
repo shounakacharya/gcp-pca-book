@@ -182,6 +182,176 @@
    * You have successfully completed the Lab.
 
 
+## 3. Google Cloud CLI commands using Cloud Shell:
+
+ ### Sign in to GCP Console:
+
+  1. After login to GCP Console, Click on the **Activate Cloud Shell** Button at top right corner of Dashboard.
+
+
+  ![Alt text](./22.jpg)
+
+
+  2. Click on the **CONTINUE** Button
+
+
+  ![Alt text](./23.jpg)
+
+
+  ![Alt text](./24.jpg)
+
+
+  3. Now you are in the CloudShell Environment to interact with GCP services. Before proceeding further enter the below command to set your project. You can copy the project id from the lab document.
+
+
+  ![Alt text](./25.jpg)
+
+
+  ### Creating a VPC network using CloudShell: 
+
+   1. In the CloudShell run the below command to create a Custom VPC network. After run this command, Click on **AUTHORIZED** button.
+
+   ```bash
+   gcloud compute networks create clivpc --subnet-mode=custom
+   ```
+
+
+   ![Alt text](./26.jpg)
+
+
+   2. You will get the below output stating as the VPC network has been created.
+
+
+  ![Alt text](./27.jpg)
+
+
+   3. To create a subnet under the above VPC network in the us-central1 region. Enter the below command.
+
+  ```bash
+  gcloud compute networks subnets create clisubnet1 --network=clivpc --range=10.0.2.0/29 --region=us-central1
+  ```
+
+  ![Alt text](./28.jpg)
+
+
+  4. To allow or deny traffic you need to create a Firewall rule under the VPC network. Enter the below command to create a firewall rule.
+
+  ```bash
+  gcloud compute firewall-rules create cli-firewall --network clivpc --allow tcp:22,icmp
+  ```
+
+
+  ![Alt text](./29.jpg)
+
+
+  
+  ### Creating a Instance using Cloud Shell:
+
+  1. Enter the below command to create a Compute Engine instance with the created subnet network. By default, it will create a machine-type family as n1-standard-1.
+
+  ```bash
+  gcloud compute instances create cli-vm --subnet clisubnet1 --zone us-central1-a --no-scopes --no-service-account
+  ```
+
+  2. You will get the below output for the created VM instance with an external IP address.
+
+
+  ![Alt text](./30.jpg)
+
+
+ ### SSH into the VM instance: 
+
+ 1. Click on the hamburger icon in the top left corner. 
+
+ 2. In the left sidebar, click on Compute Engine.
+
+ 3. You will see VM Instance that you have created recently. Click on the SSH button to **SSH** into the instance.
+
+
+ ![Alt text](./31.jpg)
+
+
+ 4. A new window will open, enter the below command and press Enter.
+
+ ```bash
+ gcloud auth login --no-launch-browser -q
+ ```
+
+ ![Alt text](./32.jpg)
+
+
+ 5. You will receive below as the output. Copy the URL mentioned in the output.
+
+
+ ![Alt text](./33.jpg)
+
+
+ 6. Paste the URL in a new tab and log in with the Email ID mentioned in the login console. And After the successful login, you will be prompted to give access to Google Cloud SDK, click on **Allow**.
+
+
+ ![Alt text](./34.jpg)
+
+
+ 7. You will receive an Authorization code as the output, copy the code and switch back to the SSH window.
+
+
+ ![Alt text](./35.jpg)
+
+
+ 8. Enter the Code and click Enter.
+
+
+ ![Alt text](./36.jpg)
+
+
+ 9. You will receive below as the output.
+
+
+ ![Alt text](./37.jpg)
+
+
+ 10. Enter the below command to get the latest update in this operating system.
+
+ ```bash
+ sudo apt-get update
+ ```
+
+
+ ![Alt text](./38.jpg)
+
+
+ 11. Enter the below command to ping Google.com to check the internet connectivity.
+
+ ```bash
+ ping google.com
+ ```
+
+
+ ![Alt text](./39.jpg)
+
+
+ 12. nter the below command to close the SSH Window.
+
+ ```bash
+ exit
+ ```
+
+
+ ### End Lab:
+
+ * You have successfully completed the lab.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
