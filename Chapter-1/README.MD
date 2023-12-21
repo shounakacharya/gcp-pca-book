@@ -52,9 +52,63 @@
 
   ### End Lab:
 
-  * You Have Successfully Completed The Lab.
+  * You have successfully completed the lab.
 
-  * Once You Have Completed The Steps Click On The End Lab Button From Your GCP Dashboard.
+  * Once you have completed the steps click on the **End Lab** Button from your GCP Dashboard.
+
+
+## 2. Creating your first GCP VM:  
+
+  ### Creating a VM Instance:
+ 
+   1. In the Left Sidebar, Click on **Compute Engine** and then click on **Create Instance**.
+
+    
+  ![Alt text](./5.jpg)
+
+
+   2. Enter the name like **test-instance-1** and select the **Region** and **Zone** (As per your requirement).
+
+
+   ![Alt text](./6.jpg)
+
+
+   3. In the Machine Configuration, Choose series as **N1** (As per your requirement).
+
+
+   ![Alt text](./7.jpg)
+
+
+   4. In Machine Type, There are two Options, **PRESET** (By default select CPU and Memory) and **CUSTOM** (You can upgrade and downgrade CPU and Memory as per your requirement).
+
+
+   ![Alt text](./8.jpg)
+
+
+   5. Click on change under Boot Disk to **CHANGE** and choose the **Operating System** (As per your requirement).
+
+
+   ![Alt text](./9.jpg)
+
+
+   ![Alt text](./10.jpg)
+
+
+   ![Alt text](./11.jpg)
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
 
     
 
