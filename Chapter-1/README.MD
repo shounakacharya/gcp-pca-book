@@ -502,7 +502,18 @@
 
   9. We have successfully differentiated between static and ephemeral IPs.
 
+  10. After Successfully completion of Lab, we have to delete the Instance. Click on the **Kebab** select **Delete** option.
 
+
+  ![Alt text](./65.jpg)
+
+
+  11. Now Prompt will come for Deletion the Instance. Click on **Delete** to permanently deletion of Instance.
+
+
+  ![Alt text](./66.jpg)
+
+  
  **End Lab**
  
 
