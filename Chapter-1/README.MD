@@ -341,7 +341,185 @@
 
  * You have successfully completed the lab.
 
+## 4. Types of IP Addressing in GCP:
 
+ ### Creating a VM Instance with an Ephemeral IP address:
+
+  1. Click on the hamburger icon on the top left corner 
+
+  2. Click on **Compute Engine** under Compute section.
+
+
+  ![Alt text](./40.jpg)
+
+
+  3. Enter the name like instance-ephemeral and Keep the **region** to **us-central1** and **Zone** as **us-central1-a**.
+
+
+  ![Alt text](./41.jpg)
+
+
+
+  4. Choose series as **N1**, under Machine Configuration and Choose the machine type as **n1-standard-1**.
+
+
+   ![Alt text](./42.jpg)
+
+
+  5. Under **Identity and API access** choose **No service Account** from the drop-down menu.
+
+
+   ![Alt text](./43.jpg)
+
+
+  6. Leave other settings as default and click on Create.
+
+  7. After the successful creation of the VM, you will see the below as the output. Note down the **Internal IP (10.128.0.3)** and the **External IP (35.225.12.241)**.
+
+
+   ![Alt text](./44.jpg)
+
+
+  8. Click on the **kebab** icon under the **ephemeral-instance** instance. 
+
+
+   ![Alt text](./45.jpg)
+
+
+   9. Click on **Stop** to stop the running VM, in order to see the change in IP address.
+
+
+   ![Alt text](./46.jpg)
+
+
+   10. Click on **Stop** from the pop-up window.
+
+
+   ![Alt text](./47.jpg)
+
+
+   11. It will take a few minutes for the VM to get stopped. You will see the below as the output after VM is stopped. Now click on the **Kebab** icon to start the VM again.  
+
+
+   ![Alt text](./48.jpg)
+
+
+   12. Click on **Start/Resume** to start the VM.
+
+
+  ![Alt text](./49.jpg)
+
+
+   13. After the successful starting of the VM, you will see the below as the output. Note down the **Internal IP (10.128.0.3)** and the **External IP (35.202.207.57)**.
+
+
+  ![Alt text](./50.jpg)
+
+
+ ### Reserving a Static External IP:
+
+  1. Click on the hamburger icon on the top left corner 
+
+  2. Click on the **VPC network** and Click on **IP addresses** from the left panel.
+
+
+   ![Alt text](./51.jpg)
+
+
+  3. Click on **Reserve External Static Address** to reserve/create the Static IP.
+
+
+  ![Alt text](./52.jpg)
+
+
+  4. Enter the name and Leave other settings as it is and click on Reserve.
+
+
+  ![Alt text](./53.jpg)
+
+
+  5. After reserving the IP, the output should look like the below. (Below IP and your static IP will differ).
+
+
+  ![Alt text](./54.jpg)
+
+
+  ### Creating a VM Instance with a Static IP address:
+
+   1. Click on **Compute Engine** and then Click on **CREATE INSTANCE** and set the below settings.
+
+
+  ![Alt text](./55.jpg)
+
+
+  ![Alt text](./56.jpg)
+
+
+  2. Under ** Advance Options** click on **Networking**.
+
+
+   ![Alt text](./57.jpg)
+
+
+  3. Under **Network Interfaces** click on the **default network**.
+
+
+   ![Alt text](./58.jpg)
+
+
+  4. Under the **External IPv4 address** choose the one you just created above i.e. **static-kailash** and leave other settings as default and then Click on **CREATE**.
+
+
+   ![Alt text](./59.jpg)
+
+
+  5. After the successful creation of the VM with a static IP, you can see below as the output. Note down the **Internal IP (10.128.0.4)** and the **External IP (35.184.18.19)**.
+
+
+   ![Alt text](./60.jpg)
+
+
+  6. Click on the **kebab** icon under the instance-staic instance and Click on **Stop** to stop the running VM, in order to see the change in IP address. 
+
+   
+    ![Alt text](./61.jpg)
+
+
+    ![Alt text](./62.jpg)
+
+
+  7. It will take a few minutes for the VM to get stopped. You will see the below as the output after VM is stopped. Now click on the **Kebab** icon to start the VM again.
+
+
+  ![Alt text](./63.jpg)
+
+
+  8. After the successful starting of the VM, you will see the below as the output. Note down the **Internal IP (10.128.0.4)** and the **External IP (35.225.12.241).
+
+
+  ![Alt text](./64.jpg)
+
+
+  9. We have successfully differentiated between static and ephemeral IPs.
+
+
+ **End Lab**
+ 
+
+
+
+
+
+
+   
+
+
+
+
+   
+
+
+   
 
 
 
