@@ -482,10 +482,10 @@
   6. Click on the **kebab** icon under the instance-staic instance and Click on **Stop** to stop the running VM, in order to see the change in IP address. 
 
    
-    ![Alt text](./61.jpg)
+  ![Alt text](./61.jpg)
 
 
-    ![Alt text](./62.jpg)
+  ![Alt text](./62.jpg)
 
 
   7. It will take a few minutes for the VM to get stopped. You will see the below as the output after VM is stopped. Now click on the **Kebab** icon to start the VM again.
