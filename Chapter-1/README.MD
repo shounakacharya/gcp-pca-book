@@ -513,6 +513,12 @@
 
   ![Alt text](./66.jpg)
 
+
+  12. Now you can check the status as per below image, there is no any Instances are available.
+
+
+  ![Alt text](./67.jpg)
+
   
  **End Lab**
  
