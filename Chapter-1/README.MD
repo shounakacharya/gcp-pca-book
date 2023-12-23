@@ -732,19 +732,141 @@
       You have succesfully the **LAB**.
 
    
+
+## 6. Using Startup and Shut Down Scripts in Compute Engine:
+
+ ### Creating a VM Instance using Startup and Shutdown Scripts:
+
+  1. In the left sidebar, click on **Compute Engine** and click on **Create Instance**.
+
+    
+  ![Alt text](./91.jpg)
+
+
+  2. Enter the name like **test-instance** and Keep the **region** as **us-central1** and **Zone** as **us-central1-a** only.
+
    
+  ![Alt text](./92.jpg)
 
 
+  3. Under the Machine Configuration, choose series as **N1** and Make sure the machine type is **n1-standard-1**.
+
+
+  ![Alt text](./93.jpg)
+
+
+  4. Under **Identity and API access** choose **No service Account** from the drop-down menu **and** Under **Firewall**, check **Allow HTTP traffic** and **Allow HTTPS traffic**. 
+
+    
+  ![Alt text](./94.jpg)
+
+
+
+  5. Click on the down arrow to expand the **Advanced Options** and Expand the **Management** tab.
+
+    
+  ![Alt text](./95.jpg)
+
+
+  6. In the **automation** section, paste the Startup script as given below. This script will install the **Apache2 server** on it.
+
+  ```bash
+  #!/bin/bash
+      apt-get update -y
+      apt-get install -y apache2
+      echo '<h1> Startup Script has been successfully executed </h1>' > /var/www/html/index.html
+  ```
+
+
+  ![Alt text](./96.jpg)
+
+
+  7. In the **Metadata** section, Click on **ADD ITEM**.
+
+     
+
+  8. Enter **Key1** as **shutdown-script** and paste the **Shutdown script** as given below in the **Value1** section. This script will create a new txt file with a message.
+
+  ```bash
+  #!/bin/bash
+      echo 'Shutdown Script has been successfully executed' >> /root/history.txt
+  ```
+
+  ![Alt text](./97.jpg)
 
    
+  9. Keep the other options as it is. Click on **CREATE**.
 
 
+  10. Wait for 1-2 minutes till your instance is up and running.
+
+      
+  ![Alt text](./98.jpg)
 
 
+  ### Testing the **Startup and Shutdown Scripts**:
 
+  1.  In the **VM Instances** section, **copy** the **External IP** and open a new tab with the **URL http://External_IP/**.
+
+      
+  ![Alt text](./99.jpg)
+
+  2. You will receive the output below that means **Startup script has been successfully executed** without any error.
+
+  ![Alt text](./100.jpg)
+     
+
+  3. In the Console, Click on **SSH** in beside the instance that you just created **test-instance**.
+
+
+  ![Alt text](./101.jpg)
+
+
+  4. In the **SSH console**, Run the below query to check if a file named as **history.txt** exists.
+
+  ```bash
+    sudo cat /root/history.txt
+  ```
+
+  5. You should get the output as below.
+
+      
+  ![Alt text](./102.jpg)
+
+
+  6. Execute the below query to restart the VM instance.
+
+  ```bash
+     sudo reboot
+  ```
+
+  7. After executing the above query, if you get a **Connection failed** prompt, Click on **Retry**.
+
+  
+  ![Alt text](./103.jpg)
  
 
+  8. After connecting to **SSH** again, Use the below query to check if the Shutdown script is executed or not.
 
+  ```bash
+    sudo cat /root/history.txt
+  ```
+
+  9. You should receive the below output that means **Shutdown script** has been successfully executed and a new file has been created named as **history.txt** that was not there earlier.
+
+
+  ![Alt text](./104.jpg)
+
+
+  10. After completion of Lab, Delete the Instance.
+
+
+
+  ![Alt text](./105.jpg)
+
+
+  **END LAB**
+   You have successfully completed the lab.
 
 
 
