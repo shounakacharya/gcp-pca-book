@@ -521,6 +521,225 @@
 
   
  **End Lab**
+
+
+## 5. Mount a Persistent Disk on a VM:
+
+ ### Creating a VM and Mounting the Disk on it:
+
+  1. Click on the hamburger icon on the top left corner. 
+
+  2. Click on **Compute Engine** under the Compute Section.
+
+
+   ![Alt text](./68.jpg)
+
+
+  3. Click on Create Instance from the top panel.
+
+
+   ![Alt text](./69.jpg)
+
+
+  4. Enter the name of the VM **(mount-vm)** and Choose the **Region** as **us-central1(lowa)** and **Zone** as **us-central1-a**.
+
+
+   ![Alt text](./70.jpg)
+
+
+  5. Under **Machine Configuration** choose Series as **N1** and Machine Type as **n1-standard-1**.
+
+
+   ![Alt text](./71.jpg)
+
+
+  6. Under **Identity and API access** choose **No service Account** from the drop-down menu.  
+
+
+   ![Alt text](./72.jpg)
+
+
+  7. Leave the rest of the settings as default and click on Create.
+
+  8. Click on the **Cloud Shell** icon in the top right corner as shown below.
+
+    
+   ![Alt text](./73.jpg)
+
+
+  9. Use the below command to create a new disk with the name **data-disk** in the **us-central1-a** zone.
+
+    ```bash
+    gcloud compute disks create data-disk \ --zone=us-central1-a \ --size=10GB \ --type=pd-standard
+    ```
+
+  10. Click on **AUTHORIZE**
+
+
+   ![Alt text](./74.jpg)
+
+  
+   ![Alt text](./75.jpg)
+
+
+  11. Now attach the disk with the instance. Replace <INSTANCE-NAME> with the name of the VM you created above i.e. **mount-instance**. 
+  
+   ```bash
+   gcloud compute instances attach-disk <mount-instance> \ --disk data-disk \ --zone=us-central1-a 
+   ```
+
+   ![Alt text](./76.jpg)
+   
+  12. Click on the **SSH** button under the Connect section of your **mount-vm** virtual machine.  
+
+
+
+   ![Alt text](./77.jpg)
+
+
+
+   ![Alt text](./78.jpg)
+
+
+
+  13. Enter the below command and press Enter.
+ 
+    ```bash
+    gcloud auth login --no-launch-browser -q
+    ```
+  
+  14. You will receive below as the output. Copy the URL mentioned in the output. 
+
+
+  ![Alt text](./79.jpg)
+
+
+  15. Paste the URL in a new tab and login with the Email ID mentioned in the login console.
+
+   
+   ![Alt text](./80.jpg)
+
+
+
+  16. After the successful login, you will be prompted to give access to Google Cloud SDK, click on Allow.
+
+
+   ![Alt text](./81.jpg)
+
+
+  17. You will receive an Authorization code as the output, copy the code and switch back to the SSH window.
+
+
+   ![Alt text](./82.jpg)
+
+
+  18. Enter the **Code** and click **Enter** You will receive below as the output.
+
+
+   ![Alt text](./83.jpg)
+
+
+  19. Use the below command to list the Disk available.
+
+   ```bash
+   sudo lsblk
+   ```
+
+
+  20. You will receive something like the below as the output. Here **sdb** is the disk you want to mount to the VM i.e the one you created above.
+
+
+   ![Alt text](./84.jpg)
+
+
+
+  21. Now, let's format the disk and make sure the disk is empty. We are using **mkfs** here which is a hard disk partitioning system for Linux. Here **-m** defines the reserved blocks percentage, **-F** forces mkfs to create a File system, **-E laz_itable_init=0,lazy_journal_init=0,discard** speeds up the filesystem initialization. **/dev/sdb** is the path to the Disk that we want to mount.
+
+  ```bash
+  sudo mkfs.ext4 -m 0 -F -E lazy_itable_init=0,lazy_journal_init=0,discard /dev/sdb
+  ```
+
+  22. You will receive the below as the output.  
+
+
+   ![Alt text](./85.jpg)
+
+
+  23. Now, let's create a **Mount directory** that will act as a Point to attach to the VM. Here the path is **/data-mount/test**.
+
+  ```bash
+  sudo mkdir -p /data-mount/test
+  ```
+
+  24. After Formatting and creating the directory, now mount the disk on the VM using the below command.
+
+   ```bash
+   sudo mount -o discard,defaults /dev/sdb /data-mount/test
+   ```
+
+  25. Run the below command to get the list of the disk.
+
+   ```bash
+   lsblk
+   ```
+
+  26. You will have the below as the output, have a look at the path of the Mountpoint, it looks different from the Mountpoint as in Step14.
+
+   
+![Alt text](./86.jpg)
+
+
+  27. The Disk is mounted, but in order to make it functional, we need to assign it the read and write permissions.
+
+   ```bash
+   sudo chmod a+w /data-mount/test
+   ```
+
+  28. Confirm the mounting of PD to the VM using the below command.
+
+   ```bash
+   df -h
+   ```
+
+  29. You will see below as the output. Observe the **/dev/sdb** and its attributes such as **Used, Use%**.
+
+   
+   ![Alt text](./87.jpg)
+
+
+  30. Go back to the Google Cloud Console and click on the Virtual Machine that you created i.e. **mount-vm**.
+
+
+   ![Alt text](./88.jpg)
+
+
+  31. Scroll down and you will observe that a data disk is added to the VM with the name **data-disk** with Mode as **R/W**.
+
+   
+   ![Alt text](./89.jpg)
+
+
+  31. **Delete** the **Instance** and **Additional Data Disk** After completed the lab successfully.
+       
+      Click on **Action** button and select **Delete**.
+
+
+   ![Alt text](./90.jpg)
+
+
+   32. **END LAB**
+
+   
+   
+
+
+
+   
+
+
+
+
+
  
 
 
