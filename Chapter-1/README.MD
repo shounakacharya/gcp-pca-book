@@ -569,9 +569,9 @@
 
   9. Use the below command to create a new disk with the name **data-disk** in the **us-central1-a** zone.
 
-    ```bash
-    gcloud compute disks create data-disk \ --zone=us-central1-a \ --size=10GB \ --type=pd-standard
-    ```
+   ```bash
+   gcloud compute disks create data-disk \ --zone=us-central1-a \ --size=10GB \ --type=pd-standard
+   ```
 
   10. Click on **AUTHORIZE**
 
@@ -604,9 +604,9 @@
 
   13. Enter the below command and press Enter.
  
-    ```bash
-    gcloud auth login --no-launch-browser -q
-    ```
+   ```bash
+   gcloud auth login --no-launch-browser -q
+   ```
   
   14. You will receive below as the output. Copy the URL mentioned in the output. 
 
@@ -683,7 +683,7 @@
    lsblk
    ```
 
-  26. You will have the below as the output, have a look at the path of the Mountpoint, it looks different from the Mountpoint as in Step14.
+  26. You will have the below as the output, have a look at the path of the Mountpoint, it looks different from the Mountpoint as in Step20.
 
    
 ![Alt text](./86.jpg)
@@ -728,6 +728,8 @@
 
 
    32. **END LAB**
+
+      You have succesfully the **LAB**.
 
    
    
