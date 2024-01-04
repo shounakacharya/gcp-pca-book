@@ -180,7 +180,7 @@
    18. After Successfully completion of Lab, we have to delete the Instance. Click on the **Kebab** select **Delete** option.
 
 
-  ![Alt text](./107.jpg.jpg)
+  ![Alt text](./107.jpg)
 
 
    19.  End Lab:
@@ -344,7 +344,7 @@
  ```
 
  13. After Successfully completion of Lab, we have to delete the Instance. Click on the **Kebab** select **Delete** option.
- 
+
 
 ![Alt text](./106.jpg.jpg)
 
