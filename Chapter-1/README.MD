@@ -352,7 +352,7 @@
  ### End Lab:
 
 
- * You have successfully completed the lab.
+ * You have successfully completed the **Lab** .
 
 ## 4. Types of IP Addressing in GCP:
 
@@ -534,6 +534,8 @@
 
   
  **End Lab**
+
+  You have successfully completed the **LAB**
 
 
 ## 5. Mount a Persistent Disk on a VM:
