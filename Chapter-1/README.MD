@@ -742,7 +742,7 @@
    ![Alt text](./90.jpg)
 
 
-   32. **END LAB**
+    **END LAB**
 
     You have successfully completed the **LAB** .
 
@@ -882,7 +882,7 @@
 
   **END LAB**
 
-  You have successfully completed the lab.
+  You have successfully completed the **Lab** .
 
 
 
