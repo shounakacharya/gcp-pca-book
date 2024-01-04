@@ -742,10 +742,10 @@
    ![Alt text](./90.jpg)
 
 
-    **END LAB**
-    
+  32. **END LAB**
 
-    You have successfully completed the **LAB** .
+
+  You have successfully completed the **LAB** .
 
    
 
