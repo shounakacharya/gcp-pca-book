@@ -744,7 +744,7 @@
 
    32. **END LAB**
 
-      You have successfully completed the **LAB** .
+    You have successfully completed the **LAB** .
 
    
 
