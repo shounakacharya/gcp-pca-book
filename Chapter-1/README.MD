@@ -177,9 +177,16 @@
   ![Alt text](./21.jpg)
 
 
-   18.  End Lab:
+   18. After Successfully completion of Lab, we have to delete the Instance. Click on the **Kebab** select **Delete** option.
 
-   * You have successfully completed the Lab.
+
+  ![Alt text](./107.jpg.jpg)
+
+
+   19.  End Lab:
+
+
+   * You have successfully completed the **Lab** .
 
 
 ## 3. Google Cloud CLI commands using Cloud Shell:
@@ -330,14 +337,20 @@
  ![Alt text](./39.jpg)
 
 
- 12. nter the below command to close the SSH Window.
+ 12. Enter the below command to close the SSH Window.
 
  ```bash
  exit
  ```
 
+ 13. After Successfully completion of Lab, we have to delete the Instance. Click on the **Kebab** select **Delete** option.
+ 
+
+![Alt text](./106.jpg.jpg)
+
 
  ### End Lab:
+
 
  * You have successfully completed the lab.
 
@@ -729,7 +742,7 @@
 
    32. **END LAB**
 
-      You have succesfully the **LAB**.
+      You have succesfully completed the **LAB** .
 
    
 
