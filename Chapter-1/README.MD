@@ -744,7 +744,7 @@
 
    32. **END LAB**
 
-      You have succesfully completed the **LAB** .
+      You have successfully completed the **LAB** .
 
    
 
@@ -873,7 +873,7 @@
   ![Alt text](./104.jpg)
 
 
-  10. After completion of Lab, Delete the Instance.
+  10. After completion of **Lab**, Delete the Instance.
 
 
 
